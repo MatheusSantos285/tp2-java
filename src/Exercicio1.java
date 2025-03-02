@@ -17,8 +17,7 @@ public class Exercicio1 {
         System.out.println("Digite o nome do seu pai:");
         String nomePai = sc.nextLine();
 
-        System.out.printf("Nome: %s%nIdade: %d%nNome da mãe: %s%nNome do pai: %s", nome, idade, nomeMae, nomePai);
-
+        System.out.printf("Nome: %s%nIdade: %d%nNome da mãe: %s%nNome do pai: %s%n", nome, idade, nomeMae, nomePai);
         //String nomeMaisLongo = nomeMae.length() > nomePai.length() ? nomeMae : nomePai;
 
         if (nome.length() > nomeMae.length() && nome.length() > nomePai.length()) {
